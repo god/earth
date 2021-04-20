@@ -7,10 +7,10 @@ for human in range(len(earth.humans)):
     if not human.has_antibodies:
       human.has_antibodies = True
       
-earth.humans.need_to_mask = False
-earth.humans.need_to_quarantine = False
+humans.need_to_mask = False
+humans.need_to_quarantine = False
 
-for sickness in earth.sicknesses:
+for sickness in sicknesses:
     sickness.active = False
     sickness.has_cure = True
     
