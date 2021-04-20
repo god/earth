@@ -1,7 +1,7 @@
 from earth import humans
 from earth import sicknesses
 
-for human in range(len(earth.humans)):
+for human in range(len(humans)):
     if human.is_sick:
       human.is_sick = False
     if not human.has_antibodies:
